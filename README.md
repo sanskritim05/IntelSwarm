@@ -6,10 +6,10 @@
   <p align="center">
     A hierarchical multi-agent swarm that generates recruiter-style competitive intelligence briefings from a single company name.
   </p>
-  <p align="center">
-    <img src="assets/demo_intelswarm.gif" alt="IntelSwarm demo" />
-  </p>
 </div>
+
+## Demo
+<img width="1920" height="1112" alt="demo_intelswarm" src="https://github.com/user-attachments/assets/25f66953-cbc5-425a-a835-bc7a676dd59c" />
 
 IntelSwarm is a full-stack competitive intelligence tool that uses a hierarchical multi-agent swarm built with Strands Agents and Ollama to generate recruiter-style company briefing documents from a single company name. Five specialist agents run in parallel across product, hiring, funding, news, and culture (each reviewed for quality and rerun if needed) before being synthesized into a structered markdown report with a TL;DR and strategic recommendations.
 
