@@ -4,7 +4,10 @@
   <h3 align="center">IntelSwarm</h3>
 
   <p align="center">
-    A hierarchical multi-agent swarm that generates recruiter-style competitive intelligence briefings from a single company name — fully local, no API key required.
+    A hierarchical multi-agent swarm that generates recruiter-style competitive intelligence briefings from a single company name.
+  </p>
+  <p align="center">
+    <img src="assets/demo_intelswarm.gif" alt="IntelSwarm demo" />
   </p>
 </div>
 
