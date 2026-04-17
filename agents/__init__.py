@@ -14,7 +14,6 @@ from tools.search import web_search
 QUALITY_SCORE_PATTERN = re.compile(r"QUALITY_SCORE:\s*(\d{1,2})", re.IGNORECASE)
 HEADING_PATTERN = re.compile(r"(?<!\n)(##\s)")
 
-
 @dataclass(frozen=True)
 class AgentSpec:
     key: str
