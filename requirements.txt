@@ -1,0 +1,9 @@
+strands-agents
+ddgs
+fastapi
+uvicorn[standard]
+asyncio
+rich
+pytest
+httpx
+python-dotenv
