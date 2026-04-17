@@ -114,17 +114,24 @@ IntelSwarm runs in four orchestration phases:
 ### Architecture
 
 ```text
-User Input
-   ↓
-Orchestrator Agent
-   ↓
-[ Product | Hiring | Funding | News | Culture ]  (parallel)
-   ↓
-Quality Review (rerun if score < 6)
-   ↓
-Orchestrator Synthesis
-   ↓
-Final Briefing Report
+                      User Input
+                          │
+                          ▼
+                  Orchestrator Agent
+   ┌───────────┬──────────┬──────────┬─────────┬
+   ▼           ▼          ▼          ▼         ▼
+Product  ·  Hiring  ·  Funding  ·  News  ·  Culture
+                      (parallel)
+                          │
+                          ▼
+            Quality Review → Rerun if Score < 6
+                          │
+                          ▼
+                 Orchestrator Synthesis
+                          │
+                          ▼
+                 Final Briefing Report
+
 ```
 
 ### Frontend Views
