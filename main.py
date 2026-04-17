@@ -1,9 +1,7 @@
 from __future__ import annotations
-
 import argparse
 import asyncio
 from dataclasses import dataclass, field
-
 from rich import box
 from rich.console import Console
 from rich.live import Live
