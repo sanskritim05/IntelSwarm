@@ -30,7 +30,6 @@ function splitSections(markdown) {
       content: `## ${headingLine}\n${bodyLines.join('\n').trim()}`.trim(),
     })
   })
-
   return sections
 }
 

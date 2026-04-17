@@ -12,7 +12,7 @@ function progressPercent(progress) {
     const status = progress[agent.key]?.status
     return status === 'complete'
   }).length
-  return Math.round((completeCount / AGENTS.length) * 100)
+  return Math.round((completeCount/AGENTS.length) * 100)
 }
 
 function statusStyles(status) {

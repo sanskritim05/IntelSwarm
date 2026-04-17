@@ -13,7 +13,7 @@ export default function SectionCard({ title, icon, content, qualityScore }) {
         </div>
         {qualityScore ? (
           <span className="rounded-full border border-cyan-300/20 bg-cyan-300/10 px-3 py-1 text-sm text-cyan-100">
-            Research quality: {qualityScore}/10
+            Research quality:{qualityScore}/10
           </span>
         ) : null}
       </div>

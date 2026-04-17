@@ -18,7 +18,7 @@ export default function CompanyInput({
             IntelSwarm
           </h1>
           <p className="mt-4 max-w-2xl text-lg leading-8 text-stone-300">
-            Generate a recruiter-style company briefing with a hierarchical multi-agent
+            Generate a recruiter style company briefing with a hierarchical multi-agent
             swarm powered by Strands Agents, Ollama, and live research progress.
           </p>
         </div>
